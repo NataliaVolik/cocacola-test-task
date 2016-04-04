@@ -21,6 +21,14 @@ Test task for [upwork job](https://www.upwork.com/jobs/Front-End-Developer-HTML-
 * I woud use SASS here (on gulp or rails views), but there were said nothing about SASS in the task.
 * There were no any criteria for adaptivity and minimum browsers version support in the task.
 
+### Installation
+To install this project locally, please clone it from github and let the [bower](http://bower.io/) install it's components:
+```bash
+git clone https://github.com/NataliaVolik/cocacola-test-task.git
+cd cocacola-test-task/
+bower install
+```
+
 ### Desktop view
 ![prev1](result-preview1.png)
 
