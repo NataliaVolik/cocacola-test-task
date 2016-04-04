@@ -1,0 +1,25 @@
+{
+  "name": "CocaCola Test Project",
+  "authors": [
+    "Natalia Volik <log.litana@gmail.com>"
+  ],
+  "description": "Test project PST to HTML",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.2",
+    "jquery.cycle2": "https://github.com/malsup/cycle2.git#2.1.6",
+    "bootstrap.checkbox": "https://github.com/flatlogic/awesome-bootstrap-checkbox.git#v0.3.7",
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#v4.5.0"
+  }
+}

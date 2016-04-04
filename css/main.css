@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "KaushanScript-Regular";
+    src: url("../fonts/KaushanScript-Regular.ttf") format("truetype")
+}
+
+.thumb-holder > ul{
+    list-style-type: none;
+}
+.cola-slideshow{
+    float: right;
+    transform: translateY(30%);
+}
+.thumb-holder{
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    transform: translate(0%,15%);
+}
+h1{
+    font-family: KaushanScript-Regular,sans-serif;
+}
+article {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 4rem;
+}
+.hide {
+    display: none;
+}
+p{
+    margin: 0;
+}
+.show-read-more{
+    display: block;
+    cursor: pointer;
+}
+
+.recommended {
+    position: absolute;
+    top: -0.8rem;
+    display: block;
+    background-color: #b6a269;
+    left: -1px;
+    z-index: 3;
+    color: #ffffff;
+    width: 12rem;
+}
+.recommended:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 12px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+.recommended small{
+    padding-left: .5rem;
+}
+.card{
+    width: 23rem;
+    border-radius: 0;
+    border: 1px solid #c9bb90;
+}
+.line{
+    border: none;
+}
+.checkbox-warning input[type="checkbox"]:checked + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before{
+    background-color: #a08958;
+    border-color: #a08958;
+    outline:none;
+}
+.checkbox label::before{
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+    border: 1px solid #a08958;
+    top: 1rem;
+}
+.checkbox label::after{
+    margin-left: -26px;
+    padding-top: 21px;
+}
+.tax{
+    color: #9e9e9e;
+}
+.btn{
+    color: #fff;
+    background-color: #010101;
+    border-color: #010101;
+    padding: .5rem 6rem;
+    border-radius: 0;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.strike{
+    position: relative;
+}
+
+.strike::after{
+    content: '';
+    border-bottom: 2px solid #9e0b0f;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+}
