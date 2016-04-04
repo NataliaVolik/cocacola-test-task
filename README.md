@@ -8,3 +8,13 @@ Test task for [upwork job](https://www.upwork.com/jobs/Front-End-Developer-HTML-
 > Skills: jQuery, Bootstrap
 
 ![design preview](design.png)
+
+
+# Result
+![prev1](result-preview1.png)
+
+![prev2](result-preview2.png)
+
+![prev3](result-preview3.png)
+
+![prev4](result-preview4.png)
